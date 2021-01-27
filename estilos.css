@@ -1,0 +1,69 @@
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body{
+    background: black;
+}
+
+.container{
+    margin-top: 25vh;
+    background: white;
+    width: 420px;
+    height: 400px;
+}
+
+.top{
+    height: 70px;
+    padding: 5px;
+}
+
+.top h1{
+    width: 200px;
+    float: left;
+}
+
+.top .image{
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+img{
+    width: 100%;
+}
+
+.main{
+    padding: 5px;
+    height: 200px;
+}
+
+.main .text{
+    width: 200px;
+    height: 190px;
+    float: left;
+}
+
+.main .form{
+    width: 200px;
+    height: 250px;
+    float: right;
+}
+
+.form input{
+    padding-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.footer{
+    position: relative;
+}
+
+.footer button{
+    padding: 5px;
+    margin-left: 30%;
+}
